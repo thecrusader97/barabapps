@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.barabapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".eva"></activity>
+        <activity android:name=".tugas3" />
+        <activity android:name=".tugas2" />
+        <activity android:name=".tb7" />
+        <activity android:name=".tb6" />
+        <activity android:name=".tb5" />
+        <activity android:name=".tb4" />
+        <activity android:name=".tb3" />
+        <activity android:name=".tb2" />
+        <activity android:name=".prak4" />
+        <activity android:name=".prak3" />
+        <activity android:name=".prak2" />
+        <activity android:name=".prak1" />
+        <activity android:name=".peng6" />
+        <activity android:name=".peng5" />
+        <activity android:name=".peng4" />
+        <activity android:name=".peng3" />
+        <activity android:name=".peng2" />
+        <activity android:name=".tb" />
+        <activity android:name=".prakt" />
+        <activity android:name=".kosa" />
+        <activity android:name=".pengenalan" />
+        <activity android:name=".about" />
+        <activity android:name=".kisi" />
+        <activity android:name=".tugas" />
+        <activity android:name=".materi" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- Hapus Intent filter MainActivity -->
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

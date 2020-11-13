@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:src="@drawable/judul" />
+
+        <Button
+            android:id="@+id/i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rnd"
+            android:padding="15dp"
+            android:text="Materi"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="222dp"
+            android:onClick="formbab1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/ii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rnd"
+            android:padding="15dp"
+            android:text="Evaluasi"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="222dp"
+            android:onClick="formbab2"/>
+        <Button
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rnd"
+            android:padding="15dp"
+            android:text="kisi"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="222dp"
+            android:onClick="formbab4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/iii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rnd"
+            android:padding="15dp"
+            android:text="tugas"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="222dp"
+            android:onClick="formbab3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rnd"
+            android:padding="15dp"
+            android:text="tentang kami"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="222dp"
+            android:onClick="about"/>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

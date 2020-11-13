@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".pengenalan">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:src="@drawable/peng" />
+        <TextView />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="462dp"
+            android:src="@drawable/col1" />
+        <!-- Menambah Toggle Button di tengah View -->
+        <ToggleButton
+            android:id="@+id/toggleSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="onToggleClicked"
+            android:background="@drawable/btn_rnd"
+            android:textOn="Play"
+            android:textOff="Pause"
+            android:textColor="#222" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mat1"
+            android:text="tambah ke kisi kisi"
+            android:textAlignment="center"
+            android:onClick="onCheckboxClicked" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <ImageButton
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/home"
+                android:onClick="home"/>
+
+            <ImageButton
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="93dp"
+                android:layout_toRightOf="@+id/home"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/right"
+                android:onClick="next"/>
+
+
+        </RelativeLayout>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
